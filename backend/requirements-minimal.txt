@@ -1,0 +1,9 @@
+# Minimal requirements for running the backend service (only modules imported in the project)
+fastapi>=0.94.0
+uvicorn>=0.21.0
+httpx>=0.23.0
+requests>=2.28.0
+redis>=4.6.0
+python-dotenv>=1.0.0
+# Optional: include for type compatibility on older Python versions
+typing-extensions>=4.5.0
